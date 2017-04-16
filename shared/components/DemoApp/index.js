@@ -111,7 +111,6 @@ function DemoApp() {
           href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"
         />
       </Helmet>
-      <Header />
       <div style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
         <Switch>
           <Route exact path="/" component={AsyncHomeRoute} />
